@@ -6,7 +6,6 @@ const main = ()=>{
 
     //botones para el cambio en generacion
     const gens = document.querySelectorAll('.gens');
-    console.log(gens);
     //arreglo para el cambio de generaciones
     const pokeregionOffset = [1,152,252,387,494,650,722,810];
         
