@@ -5,57 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/pokeball.png">
-    <link rel="stylesheet" href="./assets/styles/main-styles.css">
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <script src="https://kit.fontawesome.com/c0bef628e6.js" crossorigin="anonymous"></script>
     <title>Pokedex</title>
+    
 </head>
 <body>
     <header class="header">
         <div class="container logo-nav-container">
-            <a href="#" class="logo">Pokédex</a>
+            <a href="#" class="logo">
+                <img src="./assets/images/pokeball-logo.png"/>
+                Pokédex
+            </a>
+            <span class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </span>
             <nav class="navigation">
-                <ul>
-                    <li><a href="#">Gen 1</a></li>
-                    <li><a href="#">Gen 2</a></li>
-                    <li><a href="#">Gen 3</a></li>
+                <ul >
+                    <li><a href="#" class="gens">Gen 1</a></li>
+                    <li><a href="#" class="gens">Gen 2</a></li>
+                    <li><a href="#" class="gens">Gen 3</a></li>
+                    <li><a href="#" class="gens">Gen 4</a></li>
+                    <li><a href="#" class="gens">Gen 5</a></li>
+                    <li><a href="#" class="gens">Gen 6</a></li>
+                    <li><a href="#" class="gens">Gen 7</a></li>
+                    <li><a href="#" class="gens">Gen 8</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <h1>
-                Hola soy el título
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias dolorem commodi rem distinctio, quis architecto maxime recusandae unde laboriosam placeat adipisci? Perspiciatis explicabo quo architecto voluptatem dicta mollitia reiciendis?
-            </p>
+        <div class="container pokemon-container">
         </div>
+        <nav class="pagination">
+            <ul class="pagination">
+                <li id="previous" class="page-i"> <a class="page-linker" href="#">Previous</a></li>
+                <li id="next" class="page-i"> <a class="page-linker" href="#">Next</a></li>
+            </ul>
+        </nav>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <p>Página creada por Edwin De Thomas</p>
-        </div>
-    </footer>
+    <script type="text/javascript" src="./js/header.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
